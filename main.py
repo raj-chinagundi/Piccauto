@@ -33,7 +33,7 @@ def send_email():
         return render_template('index.html', message='Please enter required fields')
     search(keyword, imageNumber)
 
-    msg = Message("Here's a {} from {}".format(type, request.form['name']),
+    msg = Message("Images sent from {} using Piccauto".format(request.form['name']),
                   sender='graymatter626@gmail.com',
                   body="hello",
                   recipients=[request.form['email']])
