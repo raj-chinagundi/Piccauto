@@ -35,14 +35,14 @@ def send_email():
 
     msg = Message("Images sent from {} using Piccauto".format(request.form['name']),
                   sender='graymatter626@gmail.com',
-                  body="hello",
+                  body="",
                   recipients=[request.form['email']])
     with app.open_resource('images.zip') as fp:
         msg.attach('images.zip', "application/zip", fp.read())
     mail.send(msg)
 
     os.remove("./images.zip")
-    return render_template('index.html')
+    return render_template('success.html')
 
 
 if __name__ == "__main__":
