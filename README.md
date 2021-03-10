@@ -8,3 +8,7 @@ Piccauto is an application where you can simply download any image you require a
 4.Enter your name <br/>
 5.Enter the Email address you want to send these images to <br/>
 6.Click on Send Email <br/>
+
+### How it looks
+
+https://github.com/basavraj-chinagundi/Piccauto/blob/main/Piccauto.png
