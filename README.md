@@ -11,4 +11,4 @@ Piccauto is an application where you can simply download any image you require a
 
 ### How it looks
 
-https://github.com/basavraj-chinagundi/Piccauto/blob/main/Piccauto.png
+![alt text](https://github.com/basavraj-chinagundi/Piccauto/blob/main/Piccauto.png)
