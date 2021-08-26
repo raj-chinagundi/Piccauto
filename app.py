@@ -10,8 +10,8 @@ app.config.update(
     MAIL_SERVER='smtp.gmail.com',
     MAIL_PORT=465,
     MAIL_USE_SSL=True,
-    MAIL_USERNAME=#youremail,
-    MAIL_PASSWORD=#password,
+    MAIL_USERNAME='graymatter626@gmail.com',
+    MAIL_PASSWORD='Graymatter626!',
 )
 mail = Mail(app)
 
@@ -34,7 +34,7 @@ def send_email():
     search(keyword, imageNumber)
 
     msg = Message("Images sent from {} using Piccauto".format(request.form['name']),
-                  sender=#yourmail,
+                  sender='graymatter626@gmail.com',
                   body="",
                   recipients=[request.form['email']])
     with app.open_resource('images.zip') as fp:
